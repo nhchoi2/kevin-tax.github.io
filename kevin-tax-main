@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>세무 그룹 글로비</title>
-    <style>
+    <base href="https://kevin-tax.github.io/"><style>
         /* 기본 스타일 */
         body {
             font-family: 'Arial', sans-serif;
