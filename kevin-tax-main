@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>세무 그룹 글로비</title>
+    <style>
+        /* 기본 스타일 */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* 헤더 스타일 */
+        header {
+            background-color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* 로고 스타일 */
+        .logo {
+            max-width: 200px; /* 로고 이미지 크기 조절 */
+        }
+
+        /* 네비게이션 스타일 */
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin-left: 30px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        /* 메인 섹션 스타일 */
+        .main-section {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            display: flex;
+            align-items: center; /* 세로 중앙 정렬 */
+        }
+
+        .main-text {
+            flex: 1; /* 텍스트 영역 넓이 조절 */
+            margin-right: 30px;
+        }
+
+        .main-text h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .main-text p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* 인물 사진 스타일 */
+        .profile-image {
+            max-width: 300px; /* 사진 크기 조절 */
+        }
+
+        /* 서비스 섹션 스타일 */
+        .services-section {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .service-box {
+            width: calc(33.33% - 20px); /* 박스 넓이 계산 */
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+
+        .service-box h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .service-box p {
+            line-height: 1.6;
+        }
+
+        /* 버튼 스타일 */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="C:\Users\nhcho\Pictures\Screenshots\스크린샷 2025-01-12 164851.png" alt="회사 로고" class="logo">
+
+        <nav>
+            <ul>
+                <li><a href="#">회사 소개</a></li>
+                <li><a href="#">세무 서비스</a></li>
+                <li><a href="#" class="btn">상담 신청하기</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main-section">
+        <div class="main-text">
+            <h2>"납세자가 세법이 허락하는 범위 안에서 세법을 위반하지 않는다면<br>세금부담을 줄이기 위하여 어떠한 방법을 사용하더라도 정당하다."</h2>
+            <p style="font-size: 14px; color: gray;">- 비연방대법 Gregor v. Helvering -</p>
+        </div>
+        <img src="C:\Users\nhcho\Pictures\Screenshots\스크린샷 2025-01-12 111148.png" alt="인물 사진" class="profile-image">
+    </section>
+
+    <section class="services-section">
+        <div class="service-box">
+            <h3>TAX SAVING</h3>
+            <p>지속적인 세법 연구를 통한 절세</p>
+            <p>조세특례제한법에 대한 지속적인 연구를 통해<br>받을 수 있는 공제 감면 항목을 검토하여<br>놓치는 부분 없이 전부 환급받아 드립니다.</p>
+        </div>
+        <div class="service-box">
+            <h3>CUSTOMER SERVICE</h3>
+            <p>철저한 고객중심 서비스</p>
+            <p>세무그룹글로비는 고객과의 원활한 소통을 지향합니다.<br>따라서 계약과 동시에 한 업체당 1명의 세무사와<br>1명의 직원이 함께합니다. 즉각적인 피드백은<br>세무사의 중요한 덕목 중 하나입니다.</p>
+        </div>
+        <div class="service-box">
+            <h3>CUSTOMIZED</h3>
+            <p>절세 맞춤 서비스</p>
+            <p>절세를 위해선 업종, 상황별 맞춤 관리를 뿐는것이<br>매우중요합니다. 세무그룹 글로비는 분야별 전문가들이<br>각 기업의 상황을 이해하고 그에 맞는<br>절세 방안을 제안합니다.</p>
+        </div>
+    </section>
+
+</body>
+</html>
